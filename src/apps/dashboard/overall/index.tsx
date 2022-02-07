@@ -18,7 +18,6 @@ export const OverallPage = () => {
     <div className=" p-8 pt-[72px] mx-auto">
       <div className="mb-6">
         <Toggle setEnabled={onToggleErrors} enabled={enabledToggle} />
-        {/* TODO */}
       </div>
 
       <Table>
